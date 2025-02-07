@@ -4,11 +4,20 @@ Link Build (Windows) .exe : [https://drive.google.com/file/d/1Onm6WdADf15Pu2Fntb
 
 
 Input :
+
 A : Move Left
+
 D : Move Right
+
 Space : Jump
+
 Space (Mid-Air) : Gliding
+
 LMB : Attack
-LMB (Mid-AIr) : Jump Attack
+
+LMB (Mid-Air) : Jump Attack
+
 RMB : Throw Kunai
-RMB (Mid-AIr) : Jump Throw Kunai
+
+RMB (Mid-Air) : Jump Throw Kunai
+
