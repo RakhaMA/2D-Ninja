@@ -3,14 +3,12 @@ using UnityEngine;
 
 public class NinjaJumpState : NinjaBaseState
 {
-    private bool _isJumping = false;
 
     public NinjaJumpState(Player player, PlayerController playerController, NinjaStateMachine stateMachine) : base(player, playerController, stateMachine) { }
 
     public override void EnterState()
     {
         Debug.Log("Jump State");
-        _isJumping = true;
         SetAnimation(Player.AnimationType.Jump);
     }
 
@@ -45,7 +43,6 @@ public class NinjaJumpState : NinjaBaseState
             _stateMachine.ChangeState(_player.GlideState);
         }
 
-        _isJumping = false;
         // Check if character is grounded
         if (_playerController._grounded && input.x == 0)
         {
